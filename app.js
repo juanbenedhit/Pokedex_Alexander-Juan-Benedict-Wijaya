@@ -94,6 +94,7 @@ function showPokemonDetails(index) {
   pokemonModal.show();
 }
 
+// belum bisa
 async function searchPokemon() {
   const query = searchInput.value.toLowerCase();
   const filteredPokemon = array.filter((pokemon) =>
